@@ -17,7 +17,7 @@
 </form>
 <%String result;
 int parser;%>
-<%if(request.getParameter("oo2") !=null) {
+<%if(request.getParameter("oo2") != null) {
     result = request.getParameter("oo");
     parser = Integer.parseInt(result);
     for (int table = 1; table <= 10; table++) {%>
