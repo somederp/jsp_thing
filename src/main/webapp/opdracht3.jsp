@@ -20,7 +20,7 @@
         greet = "Goedemorgen";
     }
     else if (uur >= 12 && uur < 18) {
-        greet = "Goedemmiddag";
+        greet = "Goedemiddag";
     }
     else if (uur >= 18 && uur < 24) {
         greet = "Goedenavond";
